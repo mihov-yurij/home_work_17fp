@@ -1,0 +1,96 @@
+.header {
+  @include flex-center;
+  min-height: 100vh;
+  background-image: url(../images/img-header.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba($color-primary, 0.8);
+  }
+
+  &__nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 5.75rem;
+  }
+
+  &__logo {
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+
+    &--accent {
+      border: 3px solid $color-white;
+      @include hover-transition;
+    }
+
+    &:hover .header__logo--accent {
+      border-color: $color-accent-secondary;
+    }
+
+    &--text {
+      margin-left: 0;
+    }
+  }
+
+  &__navigation-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__navigation-link {
+    @include hover-transition;
+    color: $color-white;
+    font-size: 1.125rem;
+    line-height: 0.2;
+    text-transform: capitalize;
+
+    &:hover,
+    &:focus {
+      color: $color-accent-primary;
+    }
+  }
+
+  &__hero {
+    position: relative;
+  }
+
+  &__hero-title {
+    font-family: $title-font;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: $color-white;
+    text-align: center;
+  }
+
+  &__hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__hero-link {
+    @include flex-center;
+    @include hover-transition;
+    min-width: 200px;
+    min-height: 50px;
+    border: 2px solid $color-white;
+    color: $color-white;
+    font-size: 1.125rem;
+    background-color: rgba($color-white, 0.1);
+
+    &:hover,
+    &:focus {
+      background-color: $color-accent-primary;
+    }
+  }
+}
