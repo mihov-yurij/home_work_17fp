@@ -570,7 +570,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-css.png");
+  background-image: url("../images/skills/block-css.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -593,7 +593,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-markup.png");
+  background-image: url("../images/skills/block-markup.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -616,7 +616,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-webdesign.png");
+  background-image: url("../images/skills/block-webdesign.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -640,7 +640,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-qa.png");
+  background-image: url("../images/skills/block-qa.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -664,7 +664,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-codding.png");
+  background-image: url("../images/skells/block-codding.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -687,7 +687,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-adaptability.png");
+  background-image: url("../images/skills/block-adaptability.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -710,7 +710,7 @@ li {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/skills/img-php.png");
+  background-image: url("../images/skills/block-php.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
